@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black
+}
+
+.container {
+    width: 99vw;
+    height: 120vh;
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/lion2.jpg');
+    background-size: cover; */
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.brandname,
+nav {
+    margin-top: 30px;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: dodgerblue;
+}
+
+h1,
+h2 {
+    color: dodgerblue;
+}
+h2{
+    margin-top: 100px;
+    text-align: center;
+}
+.offers {
+    display: flex;
+    gap: 1rem;  
+    margin-top: 50px;
+    justify-content: space-around;
+}
+img {
+    width: 100px;
+
+}
+.holiday {
+    background-color: white;
+    width: 400px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.holiday2 {
+    background-color: dodgerblue;
+    width: 350px;
+    height: 400px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}

@@ -13,14 +13,12 @@ body {
     height: 120vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/lion2.jpg');
     background-size: cover;
-    /* opacity: 0.5; */
 }
 
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: red; */
 
 }
 
@@ -40,7 +38,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: dodgerblue;
 }
 
@@ -66,6 +64,7 @@ h2 {
     margin-top: -450px;
     margin-left: 120px;
 }
+
 
 .text {
     color: white;
@@ -96,21 +95,25 @@ button:hover {
     color: dodgerblue;
     border: none;
 }
-.offers{
+
+.offers {
     display: flex;
     gap: 1rem;
     margin-top: 200px;
     justify-content: space-around;
 }
-img{
+
+img {
     width: 100px;
-    
+
 }
-hr{
-  border-top: 2px solid dodgerblue; 
-  margin: 20px 0;
-}
-.holiday{
+
+/* hr {
+    border-top: 2px solid dodgerblue;
+    margin: 20px 0;
+} */
+
+.holiday {
     background-color: white;
     width: 400px;
     color: black;
@@ -121,7 +124,8 @@ hr{
     text-align: center;
     gap: 20px;
 }
-.holiday2{
+
+.holiday2 {
     background-color: dodgerblue;
     width: 350px;
     height: 400px;
@@ -133,7 +137,8 @@ hr{
     text-align: center;
     gap: 20px;
 }
-footer{
+
+footer {
     background-color: dodgerblue;
     display: flex;
     flex-direction: column;
@@ -144,13 +149,16 @@ footer{
     margin-top: 50px;
     height: 300px;
 }
-#footerbrand{
+
+#footerbrand {
     color: black;
 }
-.iconsDiv{
+
+.iconsDiv {
     display: flex;
     gap: 20px;
 }
-#icon{
+
+#icon {
     width: 50px;
 }
