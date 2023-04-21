@@ -108,26 +108,9 @@ img {
 
 }
 
-/* hr {
-    border-top: 2px solid dodgerblue;
-    margin: 20px 0;
-} */
-
-.holiday {
+.holiday, .holiday2 {
     background-color: white;
     width: 400px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-}
-
-.holiday2 {
-    background-color: dodgerblue;
-    width: 350px;
     height: 400px;
     color: black;
     display: flex;
@@ -136,6 +119,17 @@ img {
     align-items: center;
     text-align: center;
     gap: 20px;
+    border-radius: 1rem;
+}
+
+.holiday2 {
+    background-color: dodgerblue;
+}
+.holiday2 h2{
+    color: black;
+}
+.holiday2 p{
+    color: white;
 }
 
 footer {

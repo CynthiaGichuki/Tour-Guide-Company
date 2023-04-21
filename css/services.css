@@ -10,9 +10,8 @@ body {
 
 .container {
     width: 99vw;
-    height: 120vh;
-    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/lion2.jpg');
-    background-size: cover; */
+    height: 140vh;
+   
 }
 
 header {
@@ -46,9 +45,16 @@ h1,
 h2 {
     color: dodgerblue;
 }
-h2{
+#title{
     margin-top: 100px;
     text-align: center;
+}
+h3{
+    text-align: center;
+}
+#text{
+    color: white;
+    margin-top: 50px;
 }
 .offers {
     display: flex;
@@ -60,21 +66,9 @@ img {
     width: 100px;
 
 }
-.holiday {
+.holiday, .holiday2 {
     background-color: white;
     width: 400px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-}
-
-.holiday2 {
-    background-color: dodgerblue;
-    width: 350px;
     height: 400px;
     color: black;
     display: flex;
@@ -83,4 +77,28 @@ img {
     align-items: center;
     text-align: center;
     gap: 20px;
+    border-radius: 1rem;
+}
+
+.holiday2 {
+    background-color: dodgerblue;
+}
+.holiday2 p{
+    color: white;
+}
+.holiday2 h2{
+    color: black;
+}
+button {
+    padding: 20px;
+    width: 30%;
+    align-self: center;
+    border-radius: 0.5rem;
+    background-color: dodgerblue;
+}
+
+button:hover {
+    background-color: black;
+    color: dodgerblue;
+    border: none;
 }
